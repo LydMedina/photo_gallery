@@ -1,0 +1,114 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;	
+	
+}
+
+.header {
+	position: fixed;
+	background-color: #fff;
+	width: 100%;	
+	padding: 25px 0;
+	z-index: 1;
+}
+
+/* Container Style
+========================*/
+
+
+.lb-outerContainer {	
+ 	background-color: transparent;
+  	border-radius: 0px;
+}
+
+.lb-data .lb-number {
+	color: transparent;
+}
+
+.lb-data .lb-details {
+	width: 600px;	
+}
+
+.lb-details {
+	margin-left: 10%;
+	padding-top: 1em;
+}
+
+
+/* Image Style
+========================*/
+.lb-image {
+	height: 475px !important;
+}
+
+
+
+/* Button Style
+========================*/
+
+.lb-nav a.lb-next,
+.lb-nav a.lb-prev {
+	opacity: 1;
+	margin: 0 -155px;
+	z-index: -1;
+} 	
+
+
+.lb-data .lb-close {
+	display: none;
+}
+
+/* Search Box Style 
+========================*/
+.filtr-search {
+	display: block;
+	margin: 5px auto;	
+	font-size: 16pt;
+	border: 2px solid #eee;
+	border-radius: 4px;
+	padding: 5px 8px;	
+	width: 460px;
+	text-transform: none; 
+} 
+
+.item-desc {
+	display: none;
+}
+
+.filtr-item {
+	padding: 0;
+}
+
+
+
+
+/* Photo Gallery Style 
+========================*/
+
+ ul {
+	list-style:none;	
+	margin: 0 120px;		
+	padding: 6% 0 0 0 !important;
+	display: block;		
+	text-align: center;	
+	height: 900px !important; 	 
+}
+
+ ul li {
+	display: inline-block;	
+	background:white;
+	left: 0;
+	margin-left: 35px;		
+}
+
+ul li img {
+	display: block;
+	margin: 30px;
+}
+a {
+	text-decoration: none;
+}
